@@ -1,0 +1,92 @@
+.container body {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+.container h1{
+  padding-top: 20px;
+}
+  .container {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding-top: 50px;
+  }
+  .container label{
+      display :block ;
+      color:white;
+  }
+
+  .container form {
+    background: rgb(29, 27, 27);
+    padding : 3em;
+    height : 500px;
+    border-radius: 20px;
+    border-left: 1px solid white;
+    border-top : 1px solid white;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+.container input {
+    background: white;
+        width: 200px;
+        padding: 1em;
+        margin-bottom: 1em;
+        border: none;
+        border-left: 1px solid white;
+        border-top: 1px solid white;
+        border-radius: 5000px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+        color :black;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+        
+        .container input :hover {
+          background: rgba(255,255,255,0.1);
+          box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+        }
+.container button{
+    display: block;
+    background: transparent;
+    background-color: black;
+        width: 200px;
+        padding: 1em;
+        padding-left: 10px;
+        margin-bottom: 2em;
+        border: none;
+        border-left: 1px solid white;
+        border-top: 1px solid white;
+        border-radius: 5000px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.container textarea{
+    background: white;
+        width: 200px;
+        padding: 1em;
+        margin-bottom: 2em;
+        border: none;
+        border-left: 1px solid white;
+        border-top: 1px solid white;
+        border-radius: 5000px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+        color: black;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}     
